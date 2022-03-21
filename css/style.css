@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka&family=Prompt:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+html{
+    background-image: url(../img/fundo.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+    
+/************** Navegação **************/
+
+.nav-logo{
+    margin-left: 60px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+    color: white;
+    flex-wrap: wrap;
+}
+
+.links{
+    display: flex;
+    gap: 50px;
+    margin-right: 300px;
+    font-size: 1.2rem;
+    font-weight: 700;
+    font-family: 'Fredoka', sans-serif;
+    cursor: pointer;
+}
+
+#home:hover{
+    color: #FFBDE6;
+}
+
+#news:hover{
+    color: #FFBDE6;
+}
+
+#Story:hover{
+    color: #FFBDE6;
+}
+
+#caracters:hover{
+    color: #FFBDE6;
+}
+
+#events:hover{
+    color: #FFBDE6;
+}
+
+/************** conteudo principal **************/
+
+section{
+   margin: 95px;
+   color: white;
+   flex-wrap: wrap;
+}
+
+.main-title{
+    margin-bottom: 10px;
+    font-size: 3rem;
+    font-family: 'Prompt', sans-serif;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+
+.main-p{
+    color: #FDEFF4;
+    font-family: 'Fredoka', sans-serif;
+    font-size: 16px;
+    flex-wrap: wrap;
+}
+
+.btn{
+    padding: 15px;
+    background-color: #FFBDE6;
+    border: none;
+    border-radius: 5px;
+    margin-top: 60px;
+    margin-left: 520px;
+    width: 130px;
+}
+
+.btn a{
+    text-transform: uppercase;
+    font-family: 'Fredoka', sans-serif;
+    font-weight: 700;
+    color: #151D3B;
+    cursor: pointer;
+}
+
+/************** footer **************/
+
+footer{
+    margin-left: 96px;
+    font-size: larger;
+    color: white;
+    margin-top: 120px;
+    cursor: pointer;
+}
+
+footer a{
+    letter-spacing: 10px;
+    color: white;
+}
+
+
+
+
+
